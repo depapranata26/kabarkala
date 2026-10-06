@@ -13,25 +13,37 @@ assets/               → style.css, app.js
 sw.js                 → service worker (bump versi tiap ada perubahan shell: kabarkala-v2, dst)
 ```
 
-## Langkah publish 1 artikel
+## Langkah publish (2–3 artikel per run)
 
 1. **Pilih topik**: rotasi kategori — Nasional, Dunia, Teknologi, Ekonomi, Olahraga, Hiburan.
-   Jangan mengulang topik yang sudah ada di `data/articles.json` (cek 20 terakhir).
-   Prioritaskan berita aktual 24 jam terakhir.
-2. **Riset**: kumpulkan MINIMAL 5 sumber berita publik yang berbeda via pencarian web.
+   Usahakan tiap artikel beda kategori. Jangan mengulang topik yang sudah ada di
+   `data/articles.json` (cek 20 terakhir). Prioritaskan berita aktual 24 jam terakhir.
+   Target 2–3 artikel per run; kalau topik yang terverifikasi kurang dari itu,
+   terbitkan yang ada saja (minimal 1) — kualitas di atas kuota.
+2. **Riset**: tiap artikel diriset dari MINIMAL 5 sumber berita publik yang berbeda.
    Catat URL + nama media tiap sumber.
-3. **Tulis artikel** (Bahasa Indonesia):
-   - Judul jelas, tidak clickbait.
+3. **Tulis artikel** (Bahasa Indonesia, gaya sesuai panduan di bawah):
+   - Judul jelas dan catchy, tidak clickbait murahan.
    - Lead 1 paragraf: apa, siapa, kapan, di mana.
    - 3–6 paragraf isi: fakta dari multi-sumber, konteks untuk pembaca Indonesia.
    - 1 paragraf "Konteks"/"Kenapa penting" bila relevan.
    - **Verifikasi silang**: nama, angka, tanggal harus muncul di ≥2 sumber. Yang tidak terverifikasi → jangan tulis.
    - Estimasi waktu baca: 3–5 menit.
-4. **Buat file** `artikel/<slug>.html` memakai TEMPLATE di bawah.
+4. **Buat file** `artikel/<slug>.html` per artikel memakai TEMPLATE di bawah.
    Slug: huruf kecil, strip, tanpa tanggal. Contoh: `indonesia-lolos-piala-dunia-2026`.
-5. **Update** `data/articles.json`: prepend object metadata (terbaru di index 0).
-6. **Commit & push** ke repo `kabarkala`, branch `main`.
-7. **Laporkan** ke user: judul + link artikel + 1 kalimat ringkasan.
+5. **Update** `data/articles.json`: prepend semua entri baru (terbaru di index 0).
+6. **Commit & push** ke repo `kabarkala`, branch `main` (satu commit berisi semua artikel).
+7. **Laporkan** ke user: daftar judul + link + 1 kalimat ringkasan per artikel.
+
+## Gaya bahasa ✍️
+
+- Bahasa Indonesia yang **muda dan gaul, tapi tetap sopan** — enak dibaca remaja sampai orang tua.
+- Pakai "kamu", kalimat pendek-pendek, nada energetic kayak lagi cerita ke teman.
+- Boleh slang ringan yang umum (mis. "gas", "auto", "bikin heboh", "nggak nyangka").
+- JANGAN: kata kasar, umpatan, bahasa vulgar, atau slang yang menyinggung SARA.
+- Judul boleh catchy tapi tetap informatif — jangan clickbait murahan.
+- Gaya boleh santai, tapi **fakta tetap serius**: angka, nama, tanggal, kutipan harus akurat dan netral.
+- Topik sensitif (bencana, kriminal, politik panas): gaya boleh ringan tapi nada tetap empati dan hormat — jangan bercanda soal korban.
 
 ## Batasan kualitas (wajib)
 
