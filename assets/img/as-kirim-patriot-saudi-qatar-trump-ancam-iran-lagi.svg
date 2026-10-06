@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <radialGradient id="oceang2" cx=".5" cy=".4" r=".8">
+      <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#172554"/>
+    </radialGradient>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05070f"/><stop offset="1" stop-color="#0b1e3f"/>
+    </linearGradient>
+    <radialGradient id="radar" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity=".55"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg2)"/>
+  <g fill="#ffffff">
+    <circle cx="100" cy="80" r="2.5" opacity=".9"/><circle cx="250" cy="180" r="2" opacity=".6"/>
+    <circle cx="420" cy="70" r="2.5" opacity=".8"/><circle cx="700" cy="120" r="2" opacity=".6"/>
+    <circle cx="900" cy="70" r="2.5" opacity=".9"/><circle cx="1080" cy="160" r="2" opacity=".6"/>
+    <circle cx="150" cy="500" r="2.5" opacity=".7"/><circle cx="1050" cy="520" r="2.5" opacity=".7"/>
+    <circle cx="330" cy="600" r="2" opacity=".5"/><circle cx="870" cy="600" r="2" opacity=".5"/>
+  </g>
+  <!-- radar sweep behind globe -->
+  <circle cx="600" cy="337" r="290" fill="url(#radar)"/>
+  <g fill="none" stroke="#f59e0b" stroke-width="4" opacity=".55">
+    <circle cx="600" cy="337" r="270"/>
+    <circle cx="600" cy="337" r="240"/>
+    <path d="M600,337 L810,190 A290,290 0 0 1 870,337 Z" fill="#f59e0b" opacity=".18" stroke="none"/>
+    <line x1="600" y1="337" x2="810" y2="190" stroke-width="6"/>
+  </g>
+  <!-- globe -->
+  <circle cx="600" cy="337" r="215" fill="url(#oceang2)"/>
+  <g fill="none" stroke="#bfdbfe" stroke-width="5" opacity=".85">
+    <ellipse cx="600" cy="337" rx="215" ry="85"/>
+    <ellipse cx="600" cy="337" rx="150" ry="215"/>
+    <ellipse cx="600" cy="337" rx="70" ry="215"/>
+    <line x1="385" y1="337" x2="815" y2="337"/>
+    <ellipse cx="600" cy="337" rx="215" ry="215"/>
+  </g>
+  <!-- defense arc markers -->
+  <g fill="#fbbf24">
+    <circle cx="600" cy="122" r="12"/>
+    <circle cx="792" cy="337" r="12"/>
+    <circle cx="408" cy="337" r="12"/>
+  </g>
+  <g stroke="#fbbf24" stroke-width="4" fill="none" opacity=".7">
+    <path d="M600,122 L600,170"/><path d="M792,337 L744,337"/><path d="M408,337 L456,337"/>
+  </g>
+  <g fill="#86efac" opacity=".9">
+    <ellipse cx="540" cy="270" rx="55" ry="38" transform="rotate(-15 540 270)"/>
+    <ellipse cx="680" cy="400" rx="48" ry="34" transform="rotate(10 680 400)"/>
+  </g>
+</svg>
