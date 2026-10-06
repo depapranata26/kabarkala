@@ -1,5 +1,32 @@
 [
   {
+    "slug": "galaxy-a08-indonesia",
+    "title": "Samsung Galaxy A08 Mendarat di Indonesia, Harga Mulai Rp2,9 Juta",
+    "category": "Teknologi",
+    "date": "2026-10-06T22:10:00+07:00",
+    "excerpt": "Samsung Galaxy A08 resmi tersedia di seluruh Indonesia mulai 2 Oktober 2026: baterai 6.000 mAh, update software 6 tahun, harga mulai Rp2.999.000.",
+    "read_time": "3 menit baca",
+    "image": "assets/img/galaxy-a08-indonesia.svg"
+  },
+  {
+    "slug": "timnas-indonesia-vs-yordania-uji-coba",
+    "title": "Setelah Juara ASEAN Cup, Timnas Uji Coba Lawan Yordania 13 November",
+    "category": "Olahraga",
+    "date": "2026-10-06T22:05:00+07:00",
+    "excerpt": "Timnas Indonesia akan menghadapi Yordania dalam laga uji coba internasional di Stadion Internasional Amman, 13 November 2026 — pemanasan menuju Piala Asia 2027.",
+    "read_time": "3 menit baca",
+    "image": "assets/img/timnas-indonesia-vs-yordania-uji-coba.svg"
+  },
+  {
+    "slug": "mk-putuskan-gugatan-ijazah-gibran",
+    "title": "MK Tolak Gugatan Syarat Pendidikan Gibran, Permohonan Dinilai Tidak Dapat Diterima",
+    "category": "Nasional",
+    "date": "2026-10-06T22:00:00+07:00",
+    "excerpt": "Mahkamah Konstitusi menyatakan gugatan syarat pendidikan Wapres Gibran Rakabuming Raka tidak dapat diterima. Putusan dibacakan Selasa malam, 6 Oktober 2026.",
+    "read_time": "4 menit baca",
+    "image": "assets/img/mk-putuskan-gugatan-ijazah-gibran.svg"
+  },
+  {
     "slug": "satgas-pkh-serahkan-rp1324-triliun",
     "title": "Rp13,24 Triliun Balik ke Negara: Prabowo Saksikan Langsung Penyerahan Aset Satgas PKH",
     "category": "Nasional",
