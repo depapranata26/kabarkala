@@ -19,8 +19,11 @@ async function loadArticles(){
 
 function cardHTML(a){
   const c = CAT_COLOR[a.category]||"#111";
+  const thumb = a.image
+    ? `<img src="${a.image}" alt="" loading="lazy">`
+    : (CAT_EMOJI[a.category]||"📰");
   return `<a class="card" href="artikel/${a.slug}.html">
-    <div class="thumb" style="background:linear-gradient(135deg,${c},#111)">${CAT_EMOJI[a.category]||"📰"}</div>
+    <div class="thumb" style="background:linear-gradient(135deg,${c},#111)">${thumb}</div>
     <div class="body">
       <div class="kicker" style="color:${c}">${esc(a.category)}</div>
       <h2>${esc(a.title)}</h2>

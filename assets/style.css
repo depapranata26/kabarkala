@@ -51,6 +51,11 @@ footer .brand{color:#fff}
 .article-head h1{font-size:24px;line-height:1.35;margin:10px 0}
 .article-meta{font-size:13px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px}
 .article-hero{height:150px;border-radius:14px;margin:14px 0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:44px;font-weight:800}
+.article-figure{margin:14px 0}
+.article-figure img{width:100%;border-radius:14px;display:block}
+.article-figure figcaption{font-size:12px;color:var(--muted);margin-top:6px;text-align:right}
+.card .thumb{overflow:hidden}
+.card .thumb img{width:100%;height:100%;object-fit:cover}
 .article-body{font-size:16.5px;line-height:1.75}
 .article-body p{margin-bottom:16px}
 .article-body h2{font-size:19px;margin:24px 0 10px}

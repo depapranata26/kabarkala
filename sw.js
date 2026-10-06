@@ -1,4 +1,4 @@
-const CACHE = "kabarkala-v1";
+const CACHE = "kabarkala-v3";
 const SHELL = ["index.html","tentang.html","assets/style.css","assets/app.js","data/articles.json"];
 self.addEventListener("install",e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));

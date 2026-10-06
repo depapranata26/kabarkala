@@ -45,6 +45,18 @@ sw.js                 → service worker (bump versi tiap ada perubahan shell: k
 - Gaya boleh santai, tapi **fakta tetap serius**: angka, nama, tanggal, kutipan harus akurat dan netral.
 - Topik sensitif (bencana, kriminal, politik panas): gaya boleh ringan tapi nada tetap empati dan hormat — jangan bercanda soal korban.
 
+## 🖼️ Gambar ilustrasi (wajib tiap artikel)
+
+Tiap artikel memakai 1 gambar ilustrasi SVG sebagai hero + thumbnail kartu:
+- Pakai template kategori di `assets/img/`: `nasional.svg`, `dunia.svg`,
+  `teknologi.svg`, `ekonomi.svg`, `olahraga.svg`, `hiburan.svg`.
+- Untuk variasi, boleh salin template jadi `assets/img/<slug>.svg` lalu ubah
+  2–3 warna gradien agar beda dari artikel lain sekategori.
+- Aturan: gaya ilustrasi editorial, tanpa foto orang asli, tanpa teks di dalam
+  gambar. Caption memakai **"Ilustrasi: KabarKala"** (sudah ada di template).
+- Tambahkan field `"image": "assets/img/<file>.svg"` di entri `data/articles.json`
+  agar muncul juga sebagai thumbnail di homepage.
+
 ## Batasan kualitas (wajib)
 
 - Jangan menerbitkan topik yang tidak bisa diverifikasi dari ≥2 sumber independen.
@@ -83,7 +95,7 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
     <h1>[JUDUL]</h1>
     <div class="article-meta"><span>📅 [TANGGAL ID]</span><span>⏱️ [X] menit baca</span></div>
   </div>
-  <div class="article-hero" style="background:linear-gradient(135deg,[WARNA],#111)">[EMOJI]</div>
+  <figure class="article-figure"><img src="../assets/img/[KATEGORI].svg" alt="[DESKRIPSI GAMBAR]"><figcaption>Ilustrasi: KabarKala</figcaption></figure>
   <div class="article-body">
     <p><strong>[LEAD: apa, siapa, kapan, di mana — 1 paragraf]</strong></p>
     <p>[Isi paragraf 1]</p>
@@ -120,6 +132,7 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
   "category": "[Nasional|Dunia|Teknologi|Ekonomi|Olahraga|Hiburan]",
   "date": "[ISO 8601, mis. 2026-10-06T11:00:00+07:00]",
   "excerpt": "[1 kalimat ringkasan]",
-  "read_time": "[X] menit baca"
+  "read_time": "[X] menit baca",
+  "image": "assets/img/[slug].jpg"
 }
 ```
