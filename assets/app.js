@@ -71,8 +71,39 @@ document.addEventListener("DOMContentLoaded",()=>{
   if(document.getElementById("list")) renderHome();
   const d = document.getElementById("dateline"); if(d && !document.getElementById("list")) d.textContent = todayID();
   bumpViewCount();
+  initCarousel();
+  initReactions();
 });
 
+/* ---- Carousel dots ---- */
+function initCarousel(){
+  const track = document.getElementById("track");
+  if(!track) return;
+  const dots = document.getElementById("dots");
+  const n = track.children.length;
+  for(let i=0;i<n;i++){ const s=document.createElement("span"); if(i===0)s.className="on"; dots.appendChild(s); }
+  track.addEventListener("scroll",()=>{
+    const w = track.children[0].offsetWidth + 14;
+    const i = Math.max(0, Math.min(n-1, Math.round(track.scrollLeft/w)));
+    [...dots.children].forEach((d,j)=>d.classList.toggle("on", j===i));
+  },{passive:true});
+}
+
+/* ---- Tombol reaksi (tanpa daftar, via Abacus API) ---- */
+async function initReactions(){
+  const wrap = document.getElementById("react");
+  if(!wrap || !wrap.dataset.slug) return;
+  const slug = wrap.dataset.slug;
+  const get = async k => { try{ const r=await fetch(`${COUNT_API}/get/${COUNT_NS}/${slug}-${k}`); const j=await r.json(); return Number(j.value)||0; }catch(e){ return 0; } };
+  const hit = async k => { try{ const r=await fetch(`${COUNT_API}/hit/${COUNT_NS}/${slug}-${k}`); const j=await r.json(); return Number(j.value)||0; }catch(e){ return null; } };
+  const btns = [...wrap.querySelectorAll("button")];
+  for(const b of btns){ const el = wrap.querySelector("#c-"+b.dataset.r); if(el) el.textContent = (await get(b.dataset.r)).toLocaleString("id-ID"); }
+  btns.forEach(b=>b.addEventListener("click", async ()=>{
+    if(b.classList.contains("voted")) return;
+    const v = await hit(b.dataset.r);
+    if(v!==null){ const el = wrap.querySelector("#c-"+b.dataset.r); if(el) el.textContent = v.toLocaleString("id-ID"); b.classList.add("voted"); }
+  }));
+}
 /* ---- Penghitung views tanpa daftar (via Abacus API) ---- */
 const COUNT_API = "https://abacus.jasoncameron.dev";
 const COUNT_NS = "kabarkala";

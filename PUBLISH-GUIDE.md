@@ -22,28 +22,31 @@ sw.js                 → service worker (bump versi tiap ada perubahan shell: k
    terbitkan yang ada saja (minimal 1) — kualitas di atas kuota.
 2. **Riset**: tiap artikel diriset dari MINIMAL 5 sumber berita publik yang berbeda.
    Catat URL + nama media tiap sumber.
-3. **Tulis artikel** (Bahasa Indonesia, gaya sesuai panduan di bawah):
-   - Judul jelas dan catchy, tidak clickbait murahan.
-   - Lead 1 paragraf: apa, siapa, kapan, di mana.
-   - 3–6 paragraf isi: fakta dari multi-sumber, konteks untuk pembaca Indonesia.
-   - 1 paragraf "Konteks"/"Kenapa penting" bila relevan.
+3. **Tulis artikel** (Bahasa Indonesia, gaya sesuai panduan di bawah) dalam **FORMAT CAROUSEL 60-detik**:
+   - 6–7 slide: (1) cover — judul nge-hook + 1 kalimat kenapa rame + gambar ilustrasi;
+     (2–4/5) tiap slide 1 fakta, maksimal 2–3 kalimat pendek + emoji judul;
+     (terakhir) "Efeknya ke lo apa?" — kenapa anak muda harus peduli;
+     (opsional) 1 slide "💬 Kata netizen" HANYA jika ada komentar sosmed asli (beri label jelas).
+   - Judul catchy dan jujur — tidak clickbait murahan.
    - **Verifikasi silang**: nama, angka, tanggal harus muncul di ≥2 sumber. Yang tidak terverifikasi → jangan tulis.
-   - Estimasi waktu baca: 3–5 menit.
+   - Estimasi waktu baca: ±1 menit.
 4. **Buat file** `artikel/<slug>.html` per artikel memakai TEMPLATE di bawah.
    Slug: huruf kecil, strip, tanpa tanggal. Contoh: `indonesia-lolos-piala-dunia-2026`.
 5. **Update** `data/articles.json`: prepend semua entri baru (terbaru di index 0).
 6. **Commit & push** ke repo `kabarkala`, branch `main` (satu commit berisi semua artikel).
 7. **Laporkan** ke user: daftar judul + link + 1 kalimat ringkasan per artikel.
 
-## Gaya bahasa ✍️
+## Gaya bahasa ✍️ (Gen Z, format carousel)
 
-- Bahasa Indonesia yang **muda dan gaul, tapi tetap sopan** — enak dibaca remaja sampai orang tua.
-- Pakai "kamu", kalimat pendek-pendek, nada energetic kayak lagi cerita ke teman.
-- Boleh slang ringan yang umum (mis. "gas", "auto", "bikin heboh", "nggak nyangka").
+- **Target pembaca: anak muda (Gen Z).** Bahasa Indonesia santai kayak lagi cerita di tongkrongan — BUKAN bahasa koran.
+- Slang Gen Z yang hidup boleh dipakai: *spill, plot twist, red flag, auto, valid, era, gas, kena imbas, adu jotos* — asal tetap sopan.
 - JANGAN: kata kasar, umpatan, bahasa vulgar, atau slang yang menyinggung SARA.
-- Judul boleh catchy tapi tetap informatif — jangan clickbait murahan.
+- Tiap slide maksimal 2–3 kalimat pendek. Satu slide = satu fakta. Tidak ada tembok teks.
+- Slide terakhir WAJIB "Efeknya ke lo apa?" — hubungkan berita ke hidup anak muda (harga HP, ongkir, skincare, nongkrong, dll).
+- Judul boleh nge-gas tapi tetap jujur — jangan clickbait murahan.
 - Gaya boleh santai, tapi **fakta tetap serius**: angka, nama, tanggal, kutipan harus akurat dan netral.
 - Topik sensitif (bencana, kriminal, politik panas): gaya boleh ringan tapi nada tetap empati dan hormat — jangan bercanda soal korban.
+- "💬 Kata netizen": hanya komentar sosmed ASLI, beri atribusi platform + label "(Suara netizen — bukan fakta.)". Jangan karang komentar.
 
 ## 🖼️ Gambar ilustrasi (wajib tiap artikel)
 
@@ -65,7 +68,7 @@ Tiap artikel memakai 1 gambar ilustrasi SVG sebagai hero + thumbnail kartu:
 - Topik sensitif (bencana, kriminal, politik panas): tetap faktual, nada netral, hindari spekulasi.
 - Jika ragu → lewati topik itu, pilih topik lain. Melewatkan 1 jam lebih baik daripada menerbitkan yang salah.
 
-## TEMPLATE artikel/<slug>.html
+## TEMPLATE artikel/<slug>.html (format carousel 60-detik)
 
 Ganti [HURUF_BESAR] dengan isi. Warna kategori: Nasional #c1121f, Dunia #1d4ed8,
 Teknologi #7c3aed, Ekonomi #047857, Olahraga #ea580c, Hiburan #db2777.
@@ -77,7 +80,7 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>[JUDUL] — KabarKala</title>
+<title>[JUDUL NGE-HOOK] — KabarKala</title>
 <meta name="description" content="[RINGKASAN 1 KALIMAT]">
 <link rel="stylesheet" href="../assets/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
@@ -92,23 +95,55 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
 <main class="wrap">
   <div class="article-head">
     <span class="badge" style="background:[WARNA]">[KATEGORI]</span>
-    <h1>[JUDUL]</h1>
-    <div class="article-meta"><span class="viewcount" data-slug="[SLUG]"></span><span>📅 [TANGGAL ID]</span><span>⏱️ [X] menit baca</span></div>
+    <h1>[JUDUL NGE-HOOK, jujur, boleh emoji 1]</h1>
+    <div class="article-meta"><span class="viewcount" data-slug="[SLUG]"></span><span>📅 [TANGGAL ID]</span><span>⏱️ 1 menit baca</span></div>
   </div>
-  <figure class="article-figure"><img src="../assets/img/[KATEGORI].svg" alt="[DESKRIPSI GAMBAR]"><figcaption>Ilustrasi: KabarKala</figcaption></figure>
-  <div class="article-body">
-    <p><strong>[LEAD: apa, siapa, kapan, di mana — 1 paragraf]</strong></p>
-    <p>[Isi paragraf 1]</p>
-    <p>[Isi paragraf 2]</p>
-    <h2>[Subjudul bila perlu]</h2>
-    <p>[Isi paragraf 3]</p>
-    <p>[Konteks / kenapa penting]</p>
+
+  <div class="carousel">
+    <div class="track" id="track">
+      <div class="slide cover" style="background:linear-gradient(160deg,[WARNA],#111)">
+        <div class="num">1 / [N]</div>
+        <img class="cover-img" src="../assets/img/[SLUG].svg" alt="[DESKRIPSI GAMBAR]">
+        <div class="kicker">[EMOJI] [KATEGORI HURUF KAPITAL]</div>
+        <h2>[JUDUL VERSI PENDEK + HOOK]</h2>
+        <p>[1 kalimat kenapa rame + ajakan geser →]</p>
+      </div>
+      <div class="slide">
+        <div class="num">2 / [N]</div>
+        <div class="emoji-big">[EMOJI]</div>
+        <h2>[Judul fakta 1]</h2>
+        <p>[2–3 kalimat fakta terverifikasi]</p>
+      </div>
+      <!-- ulang pola slide untuk fakta 2, 3, (4) -->
+      <div class="slide">
+        <div class="num">[N-1] / [N]</div>
+        <div class="emoji-big">💬</div>
+        <h2>Kata netizen</h2>
+        <p>[HANYA jika ada komentar sosmed asli + atribusi. Jika tidak ada, HAPUS slide ini.] <span class="netizen-note">(Suara netizen — bukan fakta.)</span></p>
+      </div>
+      <div class="slide">
+        <div class="num">[N] / [N]</div>
+        <div class="emoji-big">🤔</div>
+        <h2>Efeknya ke lo apa?</h2>
+        <p>[WAJIB: hubungkan ke hidup anak muda — harga, ongkir, nongkrong, dll.]</p>
+      </div>
+    </div>
+    <div class="dots" id="dots"></div>
+    <div class="swipe-hint">👆 geser kartunya</div>
   </div>
-  <div class="ai-note">🤖 Artikel ini disusun dengan bantuan AI dari berbagai sumber publik dan telah disunting manusia. Lihat daftar sumber di bawah.</div>
-  <div class="sources"><h3>📚 Sumber</h3><ul>
+
+  <h3 style="margin:18px 0 4px">Gimana menurut lo?</h3>
+  <div class="react" id="react" data-slug="[SLUG]">
+    <button data-r="fire">🔥<span class="cnt" id="c-fire">…</span></button>
+    <button data-r="wow">😮<span class="cnt" id="c-wow">…</span></button>
+    <button data-r="like">👍<span class="cnt" id="c-like">…</span></button>
+  </div>
+
+  <div class="ai-note">🤖 Artikel ini disusun dengan bantuan AI dari berbagai sumber publik dan telah disunting manusia.</div>
+  <details class="sources"><summary>📚 Sumber ([N] media)</summary><ul>
     <li><a href="[URL1]">[Nama Media 1] — [judul referensi]</a></li>
     <li><a href="[URL2]">[Nama Media 2] — [judul referensi]</a></li>
-  </ul></div>
+  </ul></details>
   <a class="backlink" href="../index.html">← Berita lainnya</a>
 </main>
 <footer>
