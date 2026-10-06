@@ -1,0 +1,68 @@
+:root{
+  --bg:#ffffff; --ink:#1a1a1a; --muted:#6b7280; --line:#e5e7eb;
+  --accent:#c1121f; --accent-dark:#8f0d16; --chip:#f3f4f6;
+  --nasional:#c1121f; --dunia:#1d4ed8; --teknologi:#7c3aed; --ekonomi:#047857; --olahraga:#ea580c; --hiburan:#db2777;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+/* header */
+.topbar{background:#111;color:#fff;position:sticky;top:0;z-index:50}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;padding:12px 16px}
+.brand{font-weight:800;font-size:22px;letter-spacing:-.5px}
+.brand span{color:var(--accent)}
+.tagline{font-size:11px;color:#9ca3af;margin-top:-4px}
+.live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:6px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.dateline{font-size:12px;color:#d1d5db}
+/* nav */
+.catnav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:57px;z-index:40}
+.catnav .wrap{display:flex;gap:8px;overflow-x:auto;padding:10px 16px;scrollbar-width:none}
+.catnav .wrap::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;padding:7px 14px;border-radius:999px;background:var(--chip);font-size:13px;font-weight:600;color:#374151;border:1px solid transparent}
+.chip.active{background:#111;color:#fff}
+/* hero */
+.hero{margin:18px 0;border-radius:14px;overflow:hidden;background:#111;color:#fff;position:relative;min-height:220px;display:flex;align-items:flex-end}
+.hero .grad{position:absolute;inset:0;opacity:.9}
+.hero .txt{position:relative;padding:20px;z-index:2}
+.badge{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;padding:4px 10px;border-radius:6px;color:#fff;margin-bottom:10px}
+.hero h1{font-size:22px;line-height:1.3;margin-bottom:8px}
+.hero .meta{font-size:12px;color:#d1d5db}
+/* cards */
+.sec-title{font-size:16px;font-weight:800;margin:22px 0 12px;display:flex;align-items:center;gap:8px}
+.sec-title::before{content:"";width:4px;height:18px;background:var(--accent);border-radius:2px}
+.card{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.card .thumb{flex:0 0 96px;height:96px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:30px;color:#fff;font-weight:800}
+.card .body{flex:1;min-width:0}
+.card .kicker{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.card h2{font-size:16px;line-height:1.4;margin-bottom:6px}
+.card .meta{font-size:12px;color:var(--muted)}
+.empty{background:#f9fafb;border:1px dashed #d1d5db;border-radius:12px;padding:32px 20px;text-align:center;color:var(--muted);font-size:14px;margin:18px 0}
+/* footer */
+footer{background:#111;color:#9ca3af;margin-top:36px;font-size:13px}
+footer .wrap{padding:28px 16px}
+footer .brand{color:#fff}
+.flink{display:flex;gap:16px;margin:14px 0;flex-wrap:wrap}
+.flink a{color:#d1d5db;font-weight:600}
+.disclaimer{font-size:12px;color:#6b7280;border-top:1px solid #1f2937;padding-top:14px;margin-top:6px}
+/* article */
+.article-head{padding:20px 0 6px}
+.article-head h1{font-size:24px;line-height:1.35;margin:10px 0}
+.article-meta{font-size:13px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.article-hero{height:150px;border-radius:14px;margin:14px 0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:44px;font-weight:800}
+.article-body{font-size:16.5px;line-height:1.75}
+.article-body p{margin-bottom:16px}
+.article-body h2{font-size:19px;margin:24px 0 10px}
+.ai-note{background:#fef9e7;border:1px solid #fde68a;border-radius:10px;padding:12px 14px;font-size:13px;color:#92400e;margin:22px 0}
+.sources{background:#f9fafb;border-radius:10px;padding:14px 16px;margin:10px 0 22px;font-size:13.5px}
+.sources h3{font-size:14px;margin-bottom:8px}
+.sources li{margin-bottom:6px;list-style:none}
+.sources a{color:var(--accent-dark);text-decoration:underline;word-break:break-all}
+.backlink{display:inline-block;margin:18px 0;font-weight:700;color:var(--accent-dark)}
+.related .card .thumb{flex-basis:72px;height:72px;font-size:22px}
+/* tentang */
+.prose h1{font-size:24px;margin:20px 0 12px}
+.prose h2{font-size:18px;margin:22px 0 8px}
+.prose p,.prose li{font-size:15px;margin-bottom:10px;color:#374151}
+.prose ul{padding-left:20px}
