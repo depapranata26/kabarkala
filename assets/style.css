@@ -50,6 +50,7 @@ footer .brand{color:#fff}
 .article-head{padding:20px 0 6px}
 .article-head h1{font-size:24px;line-height:1.35;margin:10px 0}
 .article-meta{font-size:13px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.viewcount{font-weight:700;color:var(--ink)}
 .article-hero{height:150px;border-radius:14px;margin:14px 0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:44px;font-weight:800}
 .article-figure{margin:14px 0}
 .article-figure img{width:100%;border-radius:14px;display:block}

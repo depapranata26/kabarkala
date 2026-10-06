@@ -93,7 +93,7 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
   <div class="article-head">
     <span class="badge" style="background:[WARNA]">[KATEGORI]</span>
     <h1>[JUDUL]</h1>
-    <div class="article-meta"><span>📅 [TANGGAL ID]</span><span>⏱️ [X] menit baca</span></div>
+    <div class="article-meta"><span class="viewcount" data-slug="[SLUG]"></span><span>📅 [TANGGAL ID]</span><span>⏱️ [X] menit baca</span></div>
   </div>
   <figure class="article-figure"><img src="../assets/img/[KATEGORI].svg" alt="[DESKRIPSI GAMBAR]"><figcaption>Ilustrasi: KabarKala</figcaption></figure>
   <div class="article-body">
@@ -115,6 +115,7 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
   <div class="wrap">
     <div class="brand">Kabar<span>Kala</span></div>
     <div class="disclaimer">KabarKala adalah blog kurasi berita. Artikel disusun dengan bantuan AI dari berbagai sumber publik dan disunting manusia.</div>
+    <div class="flink"><a href="../index.html">Beranda</a><a href="../statistik.html">📊 Statistik</a><a href="../tentang.html">Tentang Kami</a></div>
     <div style="margin-top:10px">© 2026 KabarKala</div>
   </div>
 </footer>
@@ -122,6 +123,13 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
 </body>
 </html>
 ```
+
+## 📊 Statistik views (tanpa daftar)
+
+- Setiap artikel otomatis menghitung views via `assets/app.js` → API counter gratis Abacus (`https://abacus.jasoncameron.dev`, namespace `kabarkala`, key = slug). Tidak perlu akun.
+- Span `<span class="viewcount" data-slug="[SLUG]">` WAJIB ada di `.article-meta` setiap artikel baru (sudah di template di atas). Ganti `[SLUG]` dengan slug artikel.
+- Halaman `statistik.html` menampilkan peringkat artikel terpopuler (ambil dari `data/articles.json` + API `/get`). Jangan ubah logic-nya kecuali perlu.
+- Catatan: angka menghitung setiap page load (termasuk kunjungan sendiri) — ini angka kasar, bukan Google Analytics.
 
 ## Format entri data/articles.json
 

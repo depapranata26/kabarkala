@@ -70,4 +70,19 @@ function renderList(list,cat){
 document.addEventListener("DOMContentLoaded",()=>{
   if(document.getElementById("list")) renderHome();
   const d = document.getElementById("dateline"); if(d && !document.getElementById("list")) d.textContent = todayID();
+  bumpViewCount();
 });
+
+/* ---- Penghitung views tanpa daftar (via Abacus API) ---- */
+const COUNT_API = "https://abacus.jasoncameron.dev";
+const COUNT_NS = "kabarkala";
+async function bumpViewCount(){
+  const el = document.querySelector(".viewcount");
+  if(!el || !el.dataset.slug) return;
+  try{
+    const res = await fetch(`${COUNT_API}/hit/${COUNT_NS}/${encodeURIComponent(el.dataset.slug)}`);
+    if(!res.ok) throw new Error("count fail");
+    const j = await res.json();
+    el.textContent = `👁️ ${Number(j.value).toLocaleString("id-ID")} dibaca`;
+  }catch(e){ el.style.display = "none"; }
+}

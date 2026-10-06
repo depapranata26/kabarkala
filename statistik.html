@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistik — KabarKala</title>
+<meta name="description" content="Statistik bacaan artikel KabarKala: artikel terpopuler dan jumlah dibaca.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<style>
+.stat-row{display:flex;gap:12px;align-items:center;padding:12px 4px;border-bottom:1px solid #e5e7eb}
+.stat-rank{font-size:20px;font-weight:800;min-width:34px;text-align:center;color:var(--muted)}
+.stat-row:first-child .stat-rank{color:#d97706}
+.stat-info{flex:1;min-width:0}
+.stat-info a{font-weight:700;color:var(--ink);text-decoration:none}
+.stat-info a:hover{text-decoration:underline}
+.stat-views{font-weight:800;white-space:nowrap;color:var(--ink)}
+.stat-cat{font-size:12px;font-weight:700}
+.stat-total{background:#f3f4f6;border-radius:12px;padding:14px 16px;margin:16px 0;font-weight:700}
+.stat-note{font-size:13px;color:var(--muted);margin-top:14px}
+.spin{text-align:center;padding:30px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div><a href="index.html" style="text-decoration:none"><div class="brand">Kabar<span>Kala</span></div></a><div class="tagline">Kabar zaman, dirangkum cerdas</div></div>
+    <div style="text-align:right"><div class="dateline" id="dateline"></div></div>
+  </div>
+</header>
+<main class="wrap prose">
+  <h1>📊 Statistik Bacaan</h1>
+  <p>Artikel KabarKala yang paling banyak dibaca, diurutkan dari teratas.</p>
+  <div class="stat-total" id="stat-total" style="display:none"></div>
+  <div id="stat-list"><div class="spin">⏳ Memuat data…</div></div>
+  <p class="stat-note">Angka dihitung sejak fitur ini dipasang (6 Okt 2026) dan mencakup setiap kali halaman dibuka. Data diperbarui otomatis.</p>
+  <a class="backlink" href="index.html">← Kembali ke Beranda</a>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="brand">Kabar<span>Kala</span></div>
+    <div class="flink"><a href="index.html">Beranda</a><a href="statistik.html">📊 Statistik</a><a href="tentang.html">Tentang Kami</a></div>
+    <div class="disclaimer">KabarKala adalah blog kurasi berita. Artikel disusun dengan bantuan AI dari berbagai sumber publik dan disunting manusia.</div>
+    <div style="margin-top:10px">© 2026 KabarKala</div>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+<script>
+const CAT_COLOR = {Nasional:"#c1121f",Dunia:"#1d4ed8",Teknologi:"#7c3aed",Ekonomi:"#047857",Olahraga:"#ea580c",Hiburan:"#db2777"};
+const sleep = ms => new Promise(r=>setTimeout(r,ms));
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+async function getViews(slug){
+  try{
+    const r = await fetch("https://abacus.jasoncameron.dev/get/kabarkala/"+encodeURIComponent(slug));
+    if(!r.ok) return 0;
+    const j = await r.json();
+    return Number(j.value)||0;
+  }catch(e){ return 0; }
+}
+async function renderStats(){
+  const listEl = document.getElementById("stat-list");
+  try{
+    const res = await fetch("data/articles.json",{cache:"no-store"});
+    const articles = await res.json();
+    const rows = [];
+    for(const a of articles){
+      rows.push({a, views: await getViews(a.slug)});
+      await sleep(350); // hormati rate limit API
+    }
+    rows.sort((x,y)=>y.views-x.views);
+    const total = rows.reduce((s,r)=>s+r.views,0);
+    const totEl = document.getElementById("stat-total");
+    totEl.style.display = "";
+    totEl.textContent = "👁️ Total dibaca semua artikel: " + total.toLocaleString("id-ID") + " kali";
+    listEl.innerHTML = rows.map((r,i)=>{
+      const c = CAT_COLOR[r.a.category]||"#111";
+      return `<div class="stat-row"><div class="stat-rank">${i+1}</div>`+
+        `<div class="stat-info"><span class="stat-cat" style="color:${c}">${esc(r.a.category)}</span><br>`+
+        `<a href="artikel/${esc(r.a.slug)}.html">${esc(r.a.title)}</a></div>`+
+        `<div class="stat-views">👁️ ${r.views.toLocaleString("id-ID")}</div></div>`;
+    }).join("");
+  }catch(e){
+    listEl.innerHTML = '<div class="spin">⚠️ Gagal memuat data statistik. Coba lagi nanti.</div>';
+  }
+}
+document.addEventListener("DOMContentLoaded", renderStats);
+</script>
+</body>
+</html>
