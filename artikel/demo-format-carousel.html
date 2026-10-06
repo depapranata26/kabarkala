@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEMO Format Carousel — Rupiah Jeblok — KabarKala</title>
+<meta name="description" content="Demo format carousel KabarKala: berita 60 detik ala swipe IG.">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+<style>
+.demo-badge{display:inline-block;background:#f59e0b;color:#111;font-weight:800;font-size:12px;padding:4px 12px;border-radius:999px;margin-bottom:10px}
+.carousel{position:relative;margin:6px -16px 0;padding:0 16px}
+.track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:6px 2px 14px;scrollbar-width:none}
+.track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 84%;scroll-snap-align:center;background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:22px 20px;box-shadow:0 4px 18px rgba(0,0,0,.07);display:flex;flex-direction:column;justify-content:center;min-height:300px}
+.slide.cover{background:linear-gradient(160deg,#047857,#111);color:#fff;border:none}
+.slide h2{font-size:26px;line-height:1.25;margin:0 0 10px}
+.slide .kicker{font-size:13px;font-weight:800;letter-spacing:1px;opacity:.85;margin-bottom:8px}
+.slide p{font-size:16px;line-height:1.65;margin:0}
+.slide .num{font-size:12px;font-weight:800;color:var(--muted);margin-bottom:10px}
+.slide.cover .num{color:#ffffffaa}
+.slide .emoji-big{font-size:40px;margin-bottom:8px}
+.dots{display:flex;gap:6px;justify-content:center;margin:2px 0 4px}
+.dots span{width:8px;height:8px;border-radius:99px;background:#d1d5db;transition:all .2s}
+.dots span.on{background:#047857;width:22px}
+.swipe-hint{text-align:center;font-size:13px;color:var(--muted);margin-bottom:14px}
+.react{display:flex;gap:10px;margin:18px 0 6px}
+.react button{flex:1;border:1px solid #e5e7eb;background:#fff;border-radius:14px;padding:12px 6px;font-size:22px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px}
+.react button:active{transform:scale(.95)}
+.react .cnt{font-size:13px;font-weight:800;color:var(--ink)}
+.react button.voted{border-color:#047857;background:#ecfdf5}
+details.sources{margin-top:14px}
+details.sources summary{cursor:pointer;font-weight:700}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div><a href="../index.html"><div class="brand">Kabar<span>Kala</span></div></a><div class="tagline">Kabar zaman, dirangkum cerdas</div></div>
+    <div style="text-align:right"><div class="dateline" id="dateline"></div></div>
+  </div>
+</header>
+<main class="wrap">
+  <span class="demo-badge">🚧 DEMO FORMAT BARU — bukan artikel resmi</span>
+  <div class="article-meta"><span class="viewcount" data-slug="demo-format-carousel"></span><span>📅 7 Oktober 2026</span><span>⏱️ 1 menit baca</span></div>
+
+  <div class="carousel">
+    <div class="track" id="track">
+      <div class="slide cover">
+        <div class="num">1 / 6</div>
+        <div class="kicker">🔥 EKONOMI</div>
+        <h2>Rupiah Jeblok ke Rp17.917! 😭</h2>
+        <p>Gara-gara Timur Tengah memanas, dompet kita kena imbasnya. Geser buat tau duduk perkaranya →</p>
+      </div>
+      <div class="slide">
+        <div class="num">2 / 6</div>
+        <div class="emoji-big">📉</div>
+        <h2>Yang terjadi</h2>
+        <p>Senin (5/10), rupiah ditutup di <strong>Rp17.917</strong> per dolar AS — turun 35 poin dari Rp17.882. Kurs resmi BI (JISDOR) catat angka yang sama persis.</p>
+      </div>
+      <div class="slide">
+        <div class="num">3 / 6</div>
+        <div class="emoji-big">💥</div>
+        <h2>Biang keroknya</h2>
+        <p>Yaman vs Houthi ribut lagi. Houthi ngaku nembakin rudal + drone ke kilang <strong>Saudi Aramco</strong> — Saudi belum konfirmasi. Pasar global langsung panik soal pasokan minyak.</p>
+      </div>
+      <div class="slide">
+        <div class="num">4 / 6</div>
+        <div class="emoji-big">⛽</div>
+        <h2>Kenanya ke Indonesia</h2>
+        <p>Impor BBM kita udah kehilangan <strong>~25% sumber pasokannya</strong> gara-gara konflik ini. Pertamina lagi berburu pemasok baru — targetnya harga di SPBU jangan naik, stok aman 18–20 hari.</p>
+      </div>
+      <div class="slide">
+        <div class="num">5 / 6</div>
+        <div class="emoji-big">📈</div>
+        <h2>Plot twist</h2>
+        <p>Selasa paginya rupiah malah <strong>menguat tipis ke Rp17.914</strong>, IHSG juga ijo (+1,36%). Tapi analis bilang tekanan belum kelar — proyeksi hari ini Rp17.910–17.960.</p>
+      </div>
+      <div class="slide">
+        <div class="num">6 / 6</div>
+        <div class="emoji-big">🤔</div>
+        <h2>Efeknya ke lo apa?</h2>
+        <p>Rupiah lemah = barang impor berpotensi mahal. Buat lo: <strong>harga HP, skincare impor, sampe ongkir</strong> bisa ikut naik kalau keterusan. Makanya stok BBM 18–20 hari itu penting banget.</p>
+      </div>
+    </div>
+    <div class="dots" id="dots"></div>
+    <div class="swipe-hint">👆 geser kartunya</div>
+  </div>
+
+  <h3 style="margin:18px 0 4px">Gimana menurut lo?</h3>
+  <div class="react" id="react">
+    <button data-r="fire">🔥<span class="cnt" id="c-fire">…</span></button>
+    <button data-r="wow">😮<span class="cnt" id="c-wow">…</span></button>
+    <button data-r="like">👍<span class="cnt" id="c-like">…</span></button>
+  </div>
+
+  <details class="sources"><summary>📚 Sumber (7 media)</summary><ul>
+    <li><a href="https://investor.id/market/456829/nilai-tukar-rupiah-hari-ini-selasa-6-oktober-2026-perkasa">Investor.id</a></li>
+    <li><a href="https://investor.id/market/456727/rupiah-terjepit-kekuatan-dolar">Investor.id</a></li>
+    <li><a href="https://investor.id/market/456731/tekanan-ke-rupiah-bakal-makin-sengit">Investor.id</a></li>
+    <li><a href="https://bsinews.id/kurs-rupiah-melemah-17917-dolar-as-5-oktober-2026">BSI News</a></li>
+    <li><a href="https://faktualid.com/ekonomi/aagwaa/rupiah-hari-senin-5-oktober-2026-terperosok-tertekan-tensi-geopolitik-dan-krisis-impor-bbm-esok-fluktuatif/">Faktual Indonesia</a></li>
+    <li><a href="https://id.tradingview.com/news/kontan:ec597de6a87ea:0/">Kontan via TradingView</a></li>
+    <li><a href="https://www.bitvonline.com/ekonomi/79757/rupiah-ditutup-melemah-35-poin-ke-rp17917-per-dolar-as-di-tengah-sentimen-geopolitik/">BI TV Online</a></li>
+  </ul></details>
+
+  <a class="backlink" href="../index.html">← Berita lainnya</a>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="brand">Kabar<span>Kala</span></div>
+    <div class="disclaimer">KabarKala adalah blog kurasi berita. Artikel disusun dengan bantuan AI dari berbagai sumber publik dan disunting manusia.</div>
+    <div class="flink"><a href="../index.html">Beranda</a><a href="../statistik.html">📊 Statistik</a><a href="../tentang.html">Tentang Kami</a></div>
+    <div style="margin-top:10px">© 2026 KabarKala</div>
+  </div>
+</footer>
+<script src="../assets/app.js"></script>
+<script>
+const NS="kabarkala", SLUG="demo-format-carousel";
+// dots
+const track=document.getElementById("track"), dots=document.getElementById("dots");
+const n=track.children.length;
+for(let i=0;i<n;i++){const s=document.createElement("span");if(i===0)s.className="on";dots.appendChild(s);}
+track.addEventListener("scroll",()=>{
+  const i=Math.round(track.scrollLeft/(track.children[0].offsetWidth+14));
+  [...dots.children].forEach((d,j)=>d.classList.toggle("on",j===i));
+},{passive:true});
+// reactions
+async function get(k){try{const r=await fetch(`https://abacus.jasoncameron.dev/get/${NS}/${SLUG}-${k}`);const j=await r.json();return Number(j.value)||0;}catch(e){return 0;}}
+async function hit(k){try{const r=await fetch(`https://abacus.jasoncameron.dev/hit/${NS}/${SLUG}-${k}`);const j=await r.json();return Number(j.value)||0;}catch(e){return null;}}
+const btns=[...document.querySelectorAll("#react button")];
+(async()=>{for(const b of btns){document.getElementById("c-"+b.dataset.r).textContent=(await get(b.dataset.r)).toLocaleString("id-ID");}})();
+btns.forEach(b=>b.addEventListener("click",async()=>{
+  if(b.classList.contains("voted"))return;
+  const v=await hit(b.dataset.r);
+  if(v!==null){document.getElementById("c-"+b.dataset.r).textContent=v.toLocaleString("id-ID");b.classList.add("voted");}
+}));
+</script>
+</body>
+</html>
