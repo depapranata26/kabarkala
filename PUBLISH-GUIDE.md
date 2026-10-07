@@ -174,7 +174,7 @@ Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olah
 {
   "slug": "[slug-tanpa-ekstensi]",
   "title": "[JUDUL]",
-  "category": "[Nasional|Dunia|Teknologi|Ekonomi|Olahraga|Hiburan]",
+  "category": "[Nasional|Dunia|Teknologi|Ekonomi|Olahraga|Hiburan|Medan]",
   "date": "[ISO 8601, mis. 2026-10-06T11:00:00+07:00]",
   "excerpt": "[1 kalimat ringkasan]",
   "read_time": "[X] menit baca",
