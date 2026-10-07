@@ -1,5 +1,59 @@
 [
   {
+    "slug": "mk-tolak-gugatan-ijazah-gibran",
+    "title": "MK Tolak Gugatan Ijazah Gibran — Tapi Ada Plot Twist! 🏛️",
+    "category": "Nasional",
+    "date": "2026-10-07T22:30:00+07:00",
+    "excerpt": "MK menolak gugatan syarat pendidikan Gibran karena pemohon tak punya kedudukan hukum — tapi juga menyatakan tak menemukan bukti ijazah setara SMA.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/mk-tolak-gugatan-ijazah-gibran.svg"
+  },
+  {
+    "slug": "spacex-galangan-dana-40-miliar-dolar-beli-chip-nvidia",
+    "title": "Elon Musk Mau Ngutang Rp715 Triliun Demi Chip Nvidia! 💻",
+    "category": "Teknologi",
+    "date": "2026-10-07T22:30:00+07:00",
+    "excerpt": "SpaceX berencana galang dana $40 miliar dipimpin Apollo untuk borong chip AI Nvidia — laporan Financial Times.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/spacex-galangan-dana-40-miliar-dolar-beli-chip-nvidia.svg"
+  },
+  {
+    "slug": "kampung-nelayan-merah-putih-medan-mulai-dibangun",
+    "title": "Medan Labuhan Punya \"Kampung Nelayan Merah Putih\"! 🏙️",
+    "category": "Medan",
+    "date": "2026-10-07T22:30:00+07:00",
+    "excerpt": "Groundbreaking KNMP di Kelurahan Nelayan Indah kemarin: dermaga, cold storage, plus asuransi BPJS buat ribuan nelayan.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/kampung-nelayan-merah-putih-medan-mulai-dibangun.svg"
+  },
+  {
+    "slug": "bank-dunia-naikkan-proyeksi-ekonomi-ri-5-2-persen",
+    "title": "Ekonomi RI Dikerek Naik! Bank Dunia: 5,2% Tahun Ini 💰",
+    "category": "Ekonomi",
+    "date": "2026-10-07T22:15:00+07:00",
+    "excerpt": "Bank Dunia revisi naik proyeksi pertumbuhan ekonomi Indonesia 2026 jadi 5,2% dari 4,7% — tapi ada catatan risikonya.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bank-dunia-naikkan-proyeksi-ekonomi-ri-5-2-persen.svg"
+  },
+  {
+    "slug": "paramount-warner-bros-merger-selesai-jadi-skydance",
+    "title": "Paramount + Warner Bros Resmi Gabung Jadi 'Skydance'! 🎬",
+    "category": "Dunia",
+    "date": "2026-10-07T22:15:00+07:00",
+    "excerpt": "Akuisisi $110 miliar rampung 6 Oktober 2026: Harry Potter, DC, HBO Max, dan Paramount+ kini satu atap bernama Skydance.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/paramount-warner-bros-merger-selesai-jadi-skydance.svg"
+  },
+  {
+    "slug": "dprd-medan-revisi-perda-kemiskinan",
+    "title": "DPRD Medan: Bansos Aja Nggak Cukup, Revisi Perda Kemiskinan! 🏙️",
+    "category": "Medan",
+    "date": "2026-10-07T22:15:00+07:00",
+    "excerpt": "DPRD Medan dorong revisi Perda 5/2015: penanggulangan kemiskinan geser dari sekadar bansos ke pemberdayaan dan lapangan kerja.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/dprd-medan-revisi-perda-kemiskinan.svg"
+  },
+  {
     "slug": "prabowo-taklimat-800-pati-tni-polri-di-istana",
     "title": "800 Jenderal Dikumpulin ke Istana, Ada Apa? 🏛️",
     "category": "Nasional",
