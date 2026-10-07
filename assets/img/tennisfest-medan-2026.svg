@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3b4f"/><stop offset=".55" stop-color="#0e7f9e"/><stop offset="1" stop-color="#b7f4e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#dawn)"/>
+  <!-- tennis ball as "sun" -->
+  <circle cx="600" cy="470" r="120" fill="#d9f99d" opacity=".95"/>
+  <circle cx="600" cy="470" r="150" fill="#d9f99d" opacity=".25"/>
+  <g stroke="#3f6212" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M500,400 q100,70 200,140"/>
+    <path d="M700,400 q-100,70 -200,140"/>
+  </g>
+  <!-- clouds -->
+  <g fill="#ffffff" opacity=".35">
+    <ellipse cx="220" cy="150" rx="130" ry="34"/><ellipse cx="980" cy="120" rx="150" ry="38"/>
+    <ellipse cx="700" cy="220" rx="110" ry="28"/><ellipse cx="420" cy="260" rx="90" ry="24"/>
+  </g>
+  <!-- ground -->
+  <rect y="520" width="1200" height="155" fill="#062f3a"/>
+  <rect y="520" width="1200" height="14" fill="#0b3b4f"/>
+  <!-- tennis racket silhouette -->
+  <g>
+    <rect x="590" y="300" width="20" height="230" rx="10" fill="#062f3a" transform="rotate(20 600 420)"/>
+    <ellipse cx="640" cy="230" rx="75" ry="95" fill="none" stroke="#062f3a" stroke-width="18" transform="rotate(20 640 230)"/>
+    <g stroke="#0e7f9e" stroke-width="5" transform="rotate(20 640 230)">
+      <line x1="640" y1="145" x2="640" y2="315"/><line x1="640" y1="145" x2="640" y2="315"/>
+      <line x1="575" y1="230" x2="705" y2="230"/>
+      <line x1="590" y1="175" x2="690" y2="285"/><line x1="690" y1="175" x2="590" y2="285"/>
+    </g>
+  </g>
+  <!-- city silhouettes -->
+  <g fill="#0a2e3a">
+    <rect x="60" y="380" width="90" height="145"/><rect x="170" y="420" width="70" height="105"/>
+    <rect x="260" y="350" width="100" height="175"/><rect x="830" y="370" width="95" height="155"/>
+    <rect x="945" y="410" width="75" height="115"/><rect x="1040" y="350" width="100" height="175"/>
+  </g>
+  <g fill="#fde68a" opacity=".9">
+    <rect x="80" y="400" width="12" height="12"/><rect x="110" y="430" width="12" height="12"/>
+    <rect x="285" y="375" width="12" height="12"/><rect x="315" y="410" width="12" height="12"/>
+    <rect x="855" y="395" width="12" height="12"/><rect x="1065" y="375" width="12" height="12"/>
+  </g>
+  <!-- birds -->
+  <g stroke="#062f3a" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M880,200 q18,-14 36,0 q18,-14 36,0"/>
+    <path d="M300,180 q14,-11 28,0 q14,-11 28,0"/>
+  </g>
+</svg>
