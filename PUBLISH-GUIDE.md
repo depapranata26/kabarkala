@@ -15,9 +15,11 @@ sw.js                 → service worker (bump versi tiap ada perubahan shell: k
 
 ## Langkah publish (2–3 artikel per run)
 
-1. **Pilih topik**: rotasi kategori — Nasional, Dunia, Teknologi, Ekonomi, Olahraga, Hiburan.
+1. **Pilih topik**: rotasi kategori — Nasional, Dunia, Teknologi, Ekonomi, Olahraga, Hiburan, Medan.
    Usahakan tiap artikel beda kategori. Jangan mengulang topik yang sudah ada di
    `data/articles.json` (cek 20 terakhir). Prioritaskan berita aktual 24 jam terakhir.
+   Kategori **Medan** = berita lokal seputar Kota Medan (pemko, kuliner, macet/banjir,
+   PSMS/event lokal, dll) — target minimal 2–3 artikel Medan per hari.
    Target 2–3 artikel per run; kalau topik yang terverifikasi kurang dari itu,
    terbitkan yang ada saja (minimal 1) — kualitas di atas kuota.
 2. **Riset**: tiap artikel diriset dari MINIMAL 5 sumber berita publik yang berbeda.
@@ -52,7 +54,7 @@ sw.js                 → service worker (bump versi tiap ada perubahan shell: k
 
 Tiap artikel memakai 1 gambar ilustrasi SVG sebagai hero + thumbnail kartu:
 - Pakai template kategori di `assets/img/`: `nasional.svg`, `dunia.svg`,
-  `teknologi.svg`, `ekonomi.svg`, `olahraga.svg`, `hiburan.svg`.
+  `teknologi.svg`, `ekonomi.svg`, `olahraga.svg`, `hiburan.svg`, `medan.svg`.
 - Untuk variasi, boleh salin template jadi `assets/img/<slug>.svg` lalu ubah
   2–3 warna gradien agar beda dari artikel lain sekategori.
 - Aturan: gaya ilustrasi editorial, tanpa foto orang asli, tanpa teks di dalam
@@ -71,8 +73,8 @@ Tiap artikel memakai 1 gambar ilustrasi SVG sebagai hero + thumbnail kartu:
 ## TEMPLATE artikel/<slug>.html (format carousel 60-detik)
 
 Ganti [HURUF_BESAR] dengan isi. Warna kategori: Nasional #c1121f, Dunia #1d4ed8,
-Teknologi #7c3aed, Ekonomi #047857, Olahraga #ea580c, Hiburan #db2777.
-Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olahraga ⚽, Hiburan 🎬.
+Teknologi #7c3aed, Ekonomi #047857, Olahraga #ea580c, Hiburan #db2777, Medan #0e7490.
+Emoji kategori: Nasional 🏛️, Dunia 🌍, Teknologi 💻, Ekonomi 💰, Olahraga ⚽, Hiburan 🎬, Medan 🏙️.
 
 ```html
 <!DOCTYPE html>
