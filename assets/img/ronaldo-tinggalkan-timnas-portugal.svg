@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7cc" stop-opacity=".55"/><stop offset="1" stop-color="#fff7cc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d9488"/><stop offset="1" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity=".8">
+    <circle cx="120" cy="90" r="2.5"/><circle cx="320" cy="50" r="2"/><circle cx="560" cy="110" r="2.5"/>
+    <circle cx="760" cy="60" r="2"/><circle cx="980" cy="100" r="2.5"/><circle cx="1120" cy="200" r="2"/>
+    <circle cx="200" cy="220" r="2"/><circle cx="880" cy="230" r="2"/>
+  </g>
+  <!-- floodlight towers -->
+  <g>
+    <rect x="180" y="180" width="14" height="240" fill="#3a3f5c"/>
+    <rect x="1006" y="180" width="14" height="240" fill="#3a3f5c"/>
+    <g fill="#ffe9a3">
+      <rect x="140" y="130" width="94" height="52" rx="8"/><rect x="966" y="130" width="94" height="52" rx="8"/>
+    </g>
+    <g fill="#fff7cc">
+      <circle cx="160" cy="148" r="8"/><circle cx="186" cy="148" r="8"/><circle cx="212" cy="148" r="8"/>
+      <circle cx="986" cy="148" r="8"/><circle cx="1012" cy="148" r="8"/><circle cx="1038" cy="148" r="8"/>
+    </g>
+    <polygon points="140,182 234,182 420,675 0,675" fill="url(#beam)"/>
+    <polygon points="966,182 1060,182 1200,675 780,675" fill="url(#beam)"/>
+  </g>
+  <!-- stadium bowl -->
+  <path d="M0,470 Q600,380 1200,470 L1200,675 L0,675 Z" fill="#232842"/>
+  <path d="M0,500 Q600,415 1200,500 L1200,675 L0,675 Z" fill="#2e3557"/>
+  <!-- crowd dots -->
+  <g fill="#ff5d5d" opacity=".85">
+    <circle cx="80" cy="530" r="7"/><circle cx="150" cy="545" r="7"/><circle cx="230" cy="535" r="7"/>
+    <circle cx="310" cy="550" r="7"/><circle cx="390" cy="538" r="7"/><circle cx="470" cy="552" r="7"/>
+    <circle cx="550" cy="540" r="7"/><circle cx="630" cy="552" r="7"/><circle cx="710" cy="540" r="7"/>
+    <circle cx="790" cy="552" r="7"/><circle cx="870" cy="538" r="7"/><circle cx="950" cy="550" r="7"/>
+    <circle cx="1030" cy="540" r="7"/><circle cx="1110" cy="552" r="7"/>
+  </g>
+  <!-- pitch -->
+  <ellipse cx="600" cy="640" rx="520" ry="90" fill="url(#pitch)"/>
+  <ellipse cx="600" cy="628" rx="120" ry="22" fill="none" stroke="#ffffff" stroke-width="4" opacity=".7"/>
+  <line x1="600" y1="556" x2="600" y2="700" stroke="#ffffff" stroke-width="4" opacity=".7"/>
+  <!-- ball -->
+  <g>
+    <circle cx="600" cy="420" r="46" fill="#ffffff"/>
+    <polygon points="600,398 621,413 613,438 587,438 579,413" fill="#232842"/>
+    <g stroke="#232842" stroke-width="5">
+      <line x1="600" y1="398" x2="600" y2="376"/><line x1="621" y1="413" x2="640" y2="404"/>
+      <line x1="613" y1="438" x2="624" y2="458"/><line x1="587" y1="438" x2="576" y2="458"/>
+      <line x1="579" y1="413" x2="560" y2="404"/>
+    </g>
+  </g>
+</svg>
