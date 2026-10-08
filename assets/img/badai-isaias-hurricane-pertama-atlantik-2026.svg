@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <radialGradient id="oceang" cx=".5" cy=".4" r=".8">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#1e1b4b"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <radialGradient id="eyeg" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#e0f2fe"/><stop offset=".7" stop-color="#38bdf8" stop-opacity=".6"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="#ffffff">
+    <circle cx="100" cy="80" r="2.5" opacity=".9"/><circle cx="250" cy="180" r="2" opacity=".6"/>
+    <circle cx="420" cy="70" r="2.5" opacity=".8"/><circle cx="700" cy="120" r="2" opacity=".6"/>
+    <circle cx="900" cy="70" r="2.5" opacity=".9"/><circle cx="1080" cy="160" r="2" opacity=".6"/>
+    <circle cx="150" cy="500" r="2.5" opacity=".7"/><circle cx="1050" cy="520" r="2.5" opacity=".7"/>
+    <circle cx="330" cy="600" r="2" opacity=".5"/><circle cx="870" cy="600" r="2" opacity=".5"/>
+  </g>
+  <!-- storm bands swirling toward the globe -->
+  <g fill="none" stroke="#67e8f9" stroke-width="8" opacity=".45">
+    <path d="M-60 470 Q 200 420 320 380 Q 420 350 480 340"/>
+    <path d="M-40 580 Q 220 540 360 480 Q 440 440 500 400"/>
+  </g>
+  <g fill="none" stroke="#f472b6" stroke-width="7" opacity=".4">
+    <path d="M1260 220 Q 1040 250 920 300 Q 830 330 770 360"/>
+    <path d="M1260 340 Q 1060 350 940 400 Q 850 430 790 450"/>
+  </g>
+  <!-- globe -->
+  <circle cx="600" cy="337" r="215" fill="url(#oceang)"/>
+  <g fill="none" stroke="#bae6fd" stroke-width="5" opacity=".85">
+    <ellipse cx="600" cy="337" rx="215" ry="85"/>
+    <ellipse cx="600" cy="337" rx="150" ry="215"/>
+    <ellipse cx="600" cy="337" rx="70" ry="215"/>
+    <line x1="385" y1="337" x2="815" y2="337"/>
+    <ellipse cx="600" cy="337" rx="215" ry="215"/>
+  </g>
+  <!-- hurricane spiral over the globe -->
+  <g fill="none" stroke="#f0fdfa" stroke-width="9" opacity=".9">
+    <path d="M600 180 A 155 155 0 1 0 755 260"/>
+    <path d="M600 230 A 105 105 0 1 1 490 300" stroke-width="8" opacity=".85"/>
+    <path d="M600 280 A 55 55 0 1 0 655 320" stroke-width="7" opacity=".8"/>
+  </g>
+  <circle cx="600" cy="337" r="46" fill="url(#eyeg)"/>
+  <circle cx="600" cy="337" r="24" fill="#f0fdfa" opacity=".95"/>
+  <g fill="#fbbf24" opacity=".9">
+    <ellipse cx="540" cy="270" rx="55" ry="38" transform="rotate(-15 540 270)" opacity=".7"/>
+    <ellipse cx="680" cy="400" rx="48" ry="34" transform="rotate(10 680 400)" opacity=".7"/>
+  </g>
+</svg>
