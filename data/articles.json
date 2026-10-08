@@ -1,5 +1,32 @@
 [
   {
+    "slug": "serangan-tanker-selat-hormuz",
+    "title": "Selat Hormuz Makin Panas! Tanker Diserang, Minyak Tembus $101 🛢️",
+    "category": "Dunia",
+    "date": "2026-10-08T13:05:00+07:00",
+    "excerpt": "12 insiden serangan tanker dalam sepekan — harga minyak Brent melonjak ke US$101,53 per barel.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/serangan-tanker-selat-hormuz.svg"
+  },
+  {
+    "slug": "mutasi-besar-tni-ad",
+    "title": "Mutasi Gede TNI AD! Wakasad & Pangkostrad Ganti 🇮🇩",
+    "category": "Nasional",
+    "date": "2026-10-08T13:00:00+07:00",
+    "excerpt": "Letjen Tri Budi Utomo jadi Wakasad, Letjen Iwan Setiawan jadi Pangkostrad, dan 11 Pangdam dirotasi sekaligus.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/mutasi-besar-tni-ad.svg"
+  },
+  {
+    "slug": "film-cidro-asmoro-tayang",
+    "title": "Cidro Asmoro Tayang Hari Ini! Ndarboy × Happy Asmara 🎬",
+    "category": "Hiburan",
+    "date": "2026-10-08T12:55:00+07:00",
+    "excerpt": "Film musikal komedi berbahasa Jawa Cidro Asmoro resmi tayang 8 Oktober 2026 di bioskop seluruh Indonesia.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/film-cidro-asmoro-tayang.svg"
+  },
+  {
     "slug": "whatsapp-blokir-login-os-lawas",
     "title": "WA Bakal Blokir Login di HP Jadul, Cek HP Lo! 📵",
     "category": "Teknologi",
