@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="law" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#450a0a"/><stop offset=".6" stop-color="#991b1b"/><stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#law)"/>
+  <g fill="#fca5a5" opacity=".18">
+    <circle cx="120" cy="90" r="3"/><circle cx="340" cy="60" r="2.5"/><circle cx="620" cy="80" r="3"/>
+    <circle cx="900" cy="60" r="2.5"/><circle cx="1100" cy="100" r="3"/>
+  </g>
+  <!-- courthouse columns -->
+  <g fill="#fecaca" opacity=".9">
+    <rect x="880" y="220" width="36" height="300"/>
+    <rect x="950" y="220" width="36" height="300"/>
+    <rect x="1020" y="220" width="36" height="300"/>
+    <rect x="860" y="200" width="220" height="24" rx="6"/>
+    <rect x="860" y="516" width="220" height="20" rx="6"/>
+    <rect x="120" y="380" width="40" height="160" opacity=".5"/>
+    <rect x="180" y="360" width="40" height="180" opacity=".5"/>
+  </g>
+  <!-- scales of justice -->
+  <g stroke="#fde68a" stroke-width="12" fill="none" stroke-linecap="round">
+    <line x1="600" y1="140" x2="600" y2="480"/>
+    <line x1="480" y1="180" x2="720" y2="180"/>
+    <line x1="480" y1="180" x2="430" y2="300"/>
+    <line x1="480" y1="180" x2="530" y2="300"/>
+    <line x1="720" y1="180" x2="670" y2="300"/>
+    <line x1="720" y1="180" x2="770" y2="300"/>
+  </g>
+  <circle cx="600" cy="140" r="18" fill="#fde68a"/>
+  <path d="M430,300 a50,50 0 0 0 100,0 Z" fill="#fde68a" opacity=".9"/>
+  <path d="M670,300 a50,50 0 0 0 100,0 Z" fill="#fde68a" opacity=".9"/>
+  <rect x="540" y="480" width="120" height="26" rx="6" fill="#fde68a"/>
+  <!-- bars -->
+  <g stroke="#1f2937" stroke-width="18" opacity=".85">
+    <line x1="200" y1="120" x2="200" y2="560"/>
+    <line x1="260" y1="120" x2="260" y2="560"/>
+    <line x1="320" y1="120" x2="320" y2="560"/>
+  </g>
+  <g stroke="#1f2937" stroke-width="18" opacity=".85">
+    <line x1="840" y1="120" x2="840" y2="560"/>
+    <line x1="900" y1="120" x2="900" y2="560"/>
+  </g>
+</svg>
