@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="ebg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#064e3b"/><stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#86efac"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#ebg)"/>
+  <g fill="#ffffff" opacity=".12">
+    <circle cx="150" cy="100" r="60"/><circle cx="1050" cy="150" r="80"/><circle cx="600" cy="80" r="40"/>
+  </g>
+  <!-- grid -->
+  <g stroke="#ffffff" stroke-width="2" opacity=".15">
+    <line x1="0" y1="150" x2="1200" y2="150"/><line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/><line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+  <!-- bars -->
+  <g>
+    <rect x="180" y="480" width="110" height="120" rx="10" fill="url(#bar)" opacity=".55"/>
+    <rect x="330" y="400" width="110" height="200" rx="10" fill="url(#bar)" opacity=".7"/>
+    <rect x="480" y="450" width="110" height="150" rx="10" fill="url(#bar)" opacity=".6"/>
+    <rect x="630" y="320" width="110" height="280" rx="10" fill="url(#bar)" opacity=".8"/>
+    <rect x="780" y="230" width="110" height="370" rx="10" fill="url(#bar)"/>
+  </g>
+  <!-- trend arrow -->
+  <path d="M150,520 L380,430 L540,460 L780,300 L1020,180" fill="none" stroke="#fde047" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="1020,180 960,185 1005,235" fill="#fde047"/>
+  <!-- coins -->
+  <g>
+    <circle cx="1020" cy="480" r="70" fill="#fbbf24" stroke="#b45309" stroke-width="8"/>
+    <text x="1020" y="505" text-anchor="middle" font-size="72" font-weight="bold" fill="#92400e" font-family="sans-serif">Rp</text>
+    <circle cx="180" cy="180" r="48" fill="#fbbf24" stroke="#b45309" stroke-width="6"/>
+    <text x="180" y="198" text-anchor="middle" font-size="48" font-weight="bold" fill="#92400e" font-family="sans-serif">Rp</text>
+  </g>
+</svg>
