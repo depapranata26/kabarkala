@@ -1,5 +1,32 @@
 [
   {
+    "slug": "im3-istimewa-medan",
+    "title": "IM3 Istimewa Mendarat di Medan, Kuota Nggak Hangus 📱",
+    "category": "Medan",
+    "date": "2026-10-10T01:30:00+07:00",
+    "excerpt": "Indosat hadirkan paket prabayar IM3 Istimewa di Medan: kuota rollover sampai 12 bulan, bonus streaming & Adobe Express, plus roaming 7 negara.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/im3-istimewa-medan.svg"
+  },
+  {
+    "slug": "trump-tahan-serangan-iran-pemilu-sela",
+    "title": "Trump: Serang Iran Nanti Aja, Nunggu Pemilu Sela 🗳️",
+    "category": "Dunia",
+    "date": "2026-10-10T01:35:00+07:00",
+    "excerpt": "Trump putar haluan 180 derajat: AS takkan menyerang Iran sebelum pemilu sela 3 November 2026, kurang dari 24 jam setelah ancam serangan skala besar.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/trump-tahan-serangan-iran-pemilu-sela.svg"
+  },
+  {
+    "slug": "emas-antam-naik-rp7000-oktober-2026",
+    "title": "Emas Antam Naik Lagi Rp7.000, 1 Gram Rp2,57 Juta 🪙",
+    "category": "Ekonomi",
+    "date": "2026-10-10T01:40:00+07:00",
+    "excerpt": "Emas Antam naik Rp7.000 jadi Rp2.572.000/gram Jumat kemarin, didorong emas dunia yang menguat ke US$4.144,6 per troy ons.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/emas-antam-naik-rp7000-oktober-2026.svg"
+  },
+  {
     "slug": "persib-remontada-3-1-port-fc-thailand",
     "title": "Persib Bikin Remontada di Thailand, Bungkam Port FC 3-1 ⚽",
     "category": "Olahraga",
