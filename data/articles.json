@@ -1,5 +1,32 @@
 [
   {
+    "slug": "itsec-asia-aicx-2026-bali",
+    "title": "AI Makin Serem, 600 Bos & Pejabat Kumpul di Bali Cari Solusi 🛡️",
+    "category": "Teknologi",
+    "date": "2026-10-12T01:35:00+07:00",
+    "excerpt": "ITSEC Asia gelar AICX 2026 di Bali: forum AI & keamanan siber, 600 pemimpin bahas tata kelola AI sampai komputasi kuantum.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/itsec-asia-aicx-2026-bali.svg"
+  },
+  {
+    "slug": "mutasi-polri-199-personel-3-kapolda",
+    "title": "199 Perwira Polri Digeser Sekaligus, 3 Kapolda & Kakorlantas Berganti 🚔",
+    "category": "Nasional",
+    "date": "2026-10-12T01:32:00+07:00",
+    "excerpt": "Kapolri rombak 199 personel lewat surat telegram — termasuk Kapolda Babel, Kaltara, Lampung, dan Kakorlantas.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/mutasi-polri-199-personel-3-kapolda.svg"
+  },
+  {
+    "slug": "kendaraan-dinas-medan-nunggak-pajak",
+    "title": "40% Kendaraan Dinas Medan Nunggak Pajak, DPRD: Jangan Jadi Contoh Buruk! 🚨",
+    "category": "Medan",
+    "date": "2026-10-12T01:30:00+07:00",
+    "excerpt": "Dari 385 kendaraan dinas yang diperiksa Wali Kota, 161 belum bayar pajak. DPRD Medan sampai turun tangan.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/kendaraan-dinas-medan-nunggak-pajak.svg"
+  },
+  {
     "slug": "ihsg-rebound-6093-ojk-ungkap-prediksi-5000",
     "title": "IHSG Rebound ke 6.093, Tapi OJK Ngaku Udah Prediksi Anjlok ke 5.000 📉",
     "category": "Ekonomi",
