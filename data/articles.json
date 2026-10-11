@@ -1,5 +1,32 @@
 [
   {
+    "slug": "mendag-bantah-minyakita-langka",
+    "title": "Minyakita Susah Dicari, Mendag Bilang Nggak Langka 🫗",
+    "category": "Ekonomi",
+    "date": "2026-10-12T03:30:00+07:00",
+    "excerpt": "Mendag Budi Santoso bantah kelangkaan minyak goreng — Minyakita memang terbatas karena skema DMO, tapi stok nasional aman dan HET tetap Rp15.700/liter.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/mendag-bantah-minyakita-langka.svg"
+  },
+  {
+    "slug": "mauritania-pemerintah-mundur-krisis-listrik",
+    "title": "Satu Negara Mundur Massal Gara-Gara Listrik Mati ⚡",
+    "category": "Dunia",
+    "date": "2026-10-12T03:30:00+07:00",
+    "excerpt": "PM Mauritania menyerahkan pengunduran diri seluruh pemerintahannya buntut pemadaman berhari-hari — tapi beberapa jam kemudian malah ditunjuk lagi.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/mauritania-pemerintah-mundur-krisis-listrik.svg"
+  },
+  {
+    "slug": "karhutla-merauke-10-distrik-63-hektare",
+    "title": "10 Distrik di Merauke Dilalap Api, Asapnya Sampai ke Malaysia 🔥",
+    "category": "Nasional",
+    "date": "2026-10-12T03:30:00+07:00",
+    "excerpt": "BNPB mencatat karhutla melanda 10 distrik di Merauke seluas 63 hektare; asapnya bikin PM Malaysia sampai telepon Presiden Prabowo.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/karhutla-merauke-10-distrik-63-hektare.svg"
+  },
+  {
     "slug": "gemini-ai-agent-google-cloud-bisa-kerja-sendiri",
     "title": "Gemini Bisa Kerja Sendiri, Walau Laptop Lo Udah Ditutup 🤖",
     "category": "Teknologi",
