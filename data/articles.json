@@ -1,5 +1,32 @@
 [
   {
+    "slug": "indonesia-gandeng-hollywood-industri-kreatif-global",
+    "title": "Indonesia Gandeng Hollywood! Film & Gim RI Bidik Pasar Global 🎬",
+    "category": "Hiburan",
+    "date": "2026-10-12T13:00:00+07:00",
+    "excerpt": "Indonesia menjajaki kerja sama industri kreatif dengan Hollywood Chamber of Commerce — dari film, animasi, musik, sampai gim dan perlindungan kekayaan intelektual.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/indonesia-gandeng-hollywood-industri-kreatif-global.svg"
+  },
+  {
+    "slug": "ihsg-12-oktober-dibuka-menguat-berbalik-melemah",
+    "title": "IHSG PHP: Dibuka Hijau, Malah Terjun ke Merah 📉",
+    "category": "Ekonomi",
+    "date": "2026-10-12T12:55:00+07:00",
+    "excerpt": "IHSG dibuka menguat 0,26% ke level 6.109 pada Senin pagi, tapi tekanan jual menghapus kenaikan dan indeks berbalik melemah di sesi perdagangan.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/ihsg-12-oktober-dibuka-menguat-berbalik-melemah.svg"
+  },
+  {
+    "slug": "mui-desak-batalkan-konser-andrea-bocelli",
+    "title": "MUI Desak Konser Andrea Bocelli di RI Dibatalkan 🎤",
+    "category": "Hiburan",
+    "date": "2026-10-12T12:50:00+07:00",
+    "excerpt": "MUI mendesak pemerintah membatalkan konser tenor Andrea Bocelli yang dijadwalkan di Borobudur dan Jakarta, menyoroti rekam jejaknya terkait penggalangan dana IDF.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/mui-desak-batalkan-konser-andrea-bocelli.svg"
+  },
+  {
     "slug": "setoran-pajak-tembus-rp1607-triliun",
     "title": "Kas Negara Makin Gemuk: Pajak Tembus Rp1.607 Triliun 🚀",
     "category": "Ekonomi",
