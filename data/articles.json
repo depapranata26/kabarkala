@@ -1,5 +1,59 @@
 [
   {
+    "slug": "bali-tech-week-2026",
+    "title": "Bali Tech Week 2026: Festival Teknologi Nasional Perdana di Sanur 💻",
+    "category": "Teknologi",
+    "date": "2026-10-13T23:30:00+07:00",
+    "excerpt": "Komdigi resmi mengumumkan Bali Tech Week 2026 pada 19–23 Oktober di Sanur, Bali — 13 event teknologi dengan target 4.000 peserta.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bali-tech-week-2026.svg"
+  },
+  {
+    "slug": "merdang-merdem-2026-medan",
+    "title": "Merdang Merdem 2026: Pesta Adat Karo Terbesar di Medan, Masuknya Gratis! 🎉",
+    "category": "Medan",
+    "date": "2026-10-13T23:30:00+07:00",
+    "excerpt": "Merdang Merdem 2026 digelar 17 Oktober di Lapangan Benteng, Medan — pesta adat Karo dengan bintang tamu dan masuk gratis.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/merdang-merdem-2026-medan.svg"
+  },
+  {
+    "slug": "bea-cukai-kualanamu-emas-stabilizer",
+    "title": "4 Keping Emas Rp3,9 M Diselundupkan dalam Stabilizer di Kualanamu ⚖️",
+    "category": "Nasional",
+    "date": "2026-10-13T23:30:00+07:00",
+    "excerpt": "Bea Cukai Kualanamu gagalkan penyelundupan 4 keping emas 1,5 kg senilai Rp3,9 miliar yang disembunyikan di stabilizer listrik.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bea-cukai-kualanamu-emas-stabilizer.svg"
+  },
+  {
+    "slug": "pertamina-spbu-24-jam-bali-antrean-bbm",
+    "title": "SPBU 24 Jam di Bali, Pertamina Gaspol Urai Antrean BBM ⛽",
+    "category": "Nasional",
+    "date": "2026-10-13T23:05:00+07:00",
+    "excerpt": "Pertamina membuka SPBU 24 jam di Denpasar, Badung, Tabanan, dan Gianyar untuk mengurai antrean panjang BBM di Bali, plus tambahan pasokan 26.200 kiloliter bertahap.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/pertamina-spbu-24-jam-bali-antrean-bbm.svg"
+  },
+  {
+    "slug": "bazar-sembako-murah-medan-diserbu-warga",
+    "title": "Bazar Sembako Murah di Medan Johor Diserbu Ratusan Warga 🛒",
+    "category": "Medan",
+    "date": "2026-10-13T23:00:00+07:00",
+    "excerpt": "Balai Karantina Sumut gelar bazar sembako murah di Jl. AH Nasution, Medan Johor, 13–14 Oktober 2026 — beras SPHP 5 kg cuma Rp58 ribu.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bazar-sembako-murah-medan-diserbu-warga.svg"
+  },
+  {
+    "slug": "kemenkeu-ai-awasi-pajak-sawit",
+    "title": "DJP Pakai AI Buat Ngintip Pajak Sawit 🌴",
+    "category": "Ekonomi",
+    "date": "2026-10-13T22:55:00+07:00",
+    "excerpt": "Kemenkeu kerahkan AI dan machine learning buat ngawasin pajak sawit — faktur pajak dibaca mesin, angka produksi dicocokin sama penjualan yang dilaporkan.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/kemenkeu-ai-awasi-pajak-sawit.svg"
+  },
+  {
     "slug": "bus-persib-u18-dilempari-batu-batang",
     "title": "Bus Persib U-18 Dilempari Batu di Tol ⚽",
     "category": "Olahraga",
