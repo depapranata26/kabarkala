@@ -1,5 +1,59 @@
 [
   {
+    "slug": "kabut-asap-medan-ispa-196-ribu",
+    "title": "Medan Diselimuti Kabut Asap, Udara Pinang Baris Masuk Kategori Tidak Sehat 😷",
+    "category": "Medan",
+    "date": "2026-10-15T04:30:00+07:00",
+    "excerpt": "Kabut asap kiriman karhutla menyelimuti Medan 14 Oktober 2026: ISPU Pinang Baris 136 (Tidak Sehat), Dinkes catat 196.547 kasus ISPA Januari–Agustus 2026.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/kabut-asap-medan-ispa-196-ribu.svg"
+  },
+  {
+    "slug": "bmkg-banjir-rob-11-wilayah-gelombang-4-meter",
+    "title": "BMKG: Gelombang 4 Meter + Banjir Rob Ancam 11 Wilayah Hari Ini 🌊",
+    "category": "Nasional",
+    "date": "2026-10-15T04:30:00+07:00",
+    "excerpt": "BMKG memperingatkan gelombang 2,5–4 meter di Samudra Hindia dan potensi banjir rob di 11 wilayah pesisir pada Kamis 15 Oktober 2026.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bmkg-banjir-rob-11-wilayah-gelombang-4-meter.svg"
+  },
+  {
+    "slug": "oppo-manus-ai-agent-mode-find-x10-coloros-17",
+    "title": "OPPO Gandeng Manus, HP Bisa Beresin Tugas Sendiri Lewat Agent Mode 🤖",
+    "category": "Teknologi",
+    "date": "2026-10-15T04:30:00+07:00",
+    "excerpt": "OPPO mengumumkan kolaborasi dengan Manus pada 13 Oktober 2026: Agent Mode di AI Mind Pilot debut di Find X10 series dengan ColorOS 17.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/oppo-manus-ai-agent-mode-find-x10-coloros-17.svg"
+  },
+  {
+    "slug": "rlwc-2026-australia-vs-selendia-baru-pembuka",
+    "title": "Piala Dunia Rugby League 2026 Dibuka Hari Ini: Australia vs Selandia Baru, Rival Panas! 🏉",
+    "category": "Olahraga",
+    "date": "2026-10-15T04:00:00+07:00",
+    "excerpt": "Rugby League World Cup 2026 dibuka Kamis 15 Oktober 2026 dengan laga Australia vs Selandia Baru di Allianz Stadium, Sydney. Kangaroos juara bertahan, Kiwis juara Pacific Cup 2025.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/rlwc-2026-australia-vs-selendia-baru-pembuka.svg"
+  },
+  {
+    "slug": "gang-anggrek-sunggal-ditembok-warga-demo",
+    "title": "Jalan Ditembok 3 Minggu, Ratusan Warga Gang Anggrek Geruduk Kantor Wali Kota Medan 🧱",
+    "category": "Medan",
+    "date": "2026-10-15T04:00:00+07:00",
+    "excerpt": "Ratusan warga Gang Anggrek, Medan Sunggal, demo ke Kantor Wali Kota Medan menuntut pembongkaran tembok yang menutup akses jalan yang mereka pakai sejak 1956.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/gang-anggrek-sunggal-ditembok-warga-demo.svg"
+  },
+  {
+    "slug": "peti-bogani-nani-wartabone-ditertibkan",
+    "title": "Tambang Emas Ilegal di Taman Nasional Bogani Dibongkar, 15 Lubang Dihancurkan ⛏️",
+    "category": "Nasional",
+    "date": "2026-10-15T04:00:00+07:00",
+    "excerpt": "Operasi gabungan Polda Sulut dan Gakkum Kehutanan menertibkan tambang emas ilegal di Taman Nasional Bogani Nani Wartabone: 78 tenda, 19 tromol, dan 15 lubang tambang diamankan atau dihancurkan.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/peti-bogani-nani-wartabone-ditertibkan.svg"
+  },
+  {
     "slug": "samsung-health-update-sleep-coaching-strava-routes",
     "title": "Samsung Health Naik Level: Sleep Coaching Makin Gampang + Rute Strava Masuk! 💻",
     "category": "Teknologi",
