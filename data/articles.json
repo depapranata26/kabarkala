@@ -1,5 +1,32 @@
 [
   {
+    "slug": "bigbang-xx-cosmos-taipei-dome-100-ribu-penonton",
+    "title": "100.000 Orang dalam 3 Malam: BIGBANG Buktikan Raja K-pop Tetap Raja 👑",
+    "category": "Hiburan",
+    "date": "2026-10-14T08:05:00+07:00",
+    "excerpt": "BIGBANG sold out 3 konser di Taipei Dome — dan Jakarta masuk jadwal tur Januari 2027 di JIS!",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bigbang-xx-cosmos-taipei-dome-100-ribu-penonton.svg"
+  },
+  {
+    "slug": "sidang-nord-stream-serhii-k-hamburg",
+    "title": "Misteri 4 Tahun Nord Stream: Sidang Perdana Digelar Hari Ini di Jerman 🌍",
+    "category": "Dunia",
+    "date": "2026-10-14T08:03:00+07:00",
+    "excerpt": "Mantan perwira Ukraina disidang di Hamburg atas dugaan peledakan pipa gas 2022 — Jerman menyidang sekutunya sendiri.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/sidang-nord-stream-serhii-k-hamburg.svg"
+  },
+  {
+    "slug": "fbi-tangkap-karyawan-openai-penyadap-ruang-rapat",
+    "title": "Karyawan OpenAI Ditangkap FBI Gara-gara Pasang Alat Sadap di Ruang Rapat 😱",
+    "category": "Teknologi",
+    "date": "2026-10-14T08:01:00+07:00",
+    "excerpt": "Insinyur OpenAI ketahuan pasang perekam tersembunyi di ruang rapat eksekutif — plot twist: AI yang melacaknya.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/fbi-tangkap-karyawan-openai-penyadap-ruang-rapat.svg"
+  },
+  {
     "slug": "kabut-asap-landa-medan-bmkg-imbau-masker",
     "title": "Kabut Asap Selimuti Medan, Matahari Sampai Kelihatan Merah",
     "category": "Medan",
