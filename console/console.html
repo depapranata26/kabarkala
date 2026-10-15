@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Console — @Screendep_bot</title>
+<style>
+  *{box-sizing:border-box} body{margin:0;background:#0b0d10;color:#e8eaed;
+    font-family:ui-monospace,Menlo,Consolas,monospace}
+  header{padding:12px 16px;border-bottom:1px solid #2a2e35;display:flex;
+    flex-wrap:wrap;gap:10px;align-items:center}
+  h1{font-size:16px;margin:0} .dot{width:10px;height:10px;border-radius:50%;
+    background:#f44336;display:inline-block}
+  .dot.on{background:#4caf50;box-shadow:0 0 8px #4caf50}
+  #status{font-size:13px;color:#b0b3b8} #conn{font-size:13px;margin-left:auto}
+  #log{padding:12px 16px;white-space:pre-wrap;word-break:break-word;
+    font-size:13px;line-height:1.5;height:calc(100vh - 120px);overflow-y:auto}
+  .line{border-bottom:1px solid #17191d;padding:1px 0}
+  .err{color:#ff8a80}
+  footer{padding:8px 16px;border-top:1px solid #2a2e35;display:flex;gap:8px;
+    align-items:center;font-size:12px;color:#888}
+</style></head>
+<body>
+<header>
+  <h1>🦑 Console — @Screendep_bot</h1>
+  <span id="dot" class="dot"></span><span id="status">memuat…</span>
+  <span id="conn">snapshot, refresh tiap 15 detik</span>
+</header>
+<div id="log"></div>
+<footer><span id="updated"></span><span id="count"></span></footer>
+<script>
+async function load(){
+  try {
+    const r = await fetch('console.json?t=' + Date.now(), {cache: 'no-store'});
+    const d = await r.json();
+    const dot = document.getElementById('dot');
+    const st = document.getElementById('status');
+    dot.className = 'dot' + (d.bot.running ? ' on' : '');
+    st.textContent = d.bot.running
+      ? 'RUNNING · PID ' + d.bot.pid + ' · uptime ' + d.bot.uptime + ' · ' + d.bot.dl_count + ' download tercatat'
+      : 'STOPPED · bot tidak jalan';
+    document.getElementById('updated').textContent = 'Snapshot: ' + d.updated_at + ' WIB';
+    const logEl = document.getElementById('log');
+    const atBottom = logEl.scrollHeight - logEl.scrollTop - logEl.clientHeight < 80;
+    logEl.innerHTML = d.log.map(t =>
+      '<div class="line' + (/poll error|gagal|Traceback|Error/i.test(t) ? ' err' : '') + '"></div>'
+    ).join('');
+    [...logEl.children].forEach((el, i) => { el.textContent = d.log[i]; });
+    document.getElementById('count').textContent = d.log.length + ' baris';
+    if (atBottom) logEl.scrollTop = logEl.scrollHeight;
+  } catch (e) { /* coba lagi next tick */ }
+}
+load();
+setInterval(load, 15000);
+</script>
+</body></html>
