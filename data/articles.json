@@ -1,5 +1,32 @@
 [
   {
+    "slug": "kebakaran-kantor-bpn-karawang-gedung-utama-hangus",
+    "title": "Kantor BPN Karawang Kebakaran, Arsip Tanah Ikut Terbakar",
+    "category": "Nasional",
+    "date": "2026-10-16T00:30:00+07:00",
+    "excerpt": "Kantor ATR/BPN Karawang terbakar Rabu malam 14 Oktober; sebagian besar gedung hangus, tiga rak arsip selamat, dan BPN menyebut lebih dari 80 persen data pertanahan sudah digital.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/kebakaran-kantor-bpn-karawang-gedung-utama-hangus.svg"
+  },
+  {
+    "slug": "spanyol-dewan-pemilu-buka-proses-terhadap-pm-sanchez",
+    "title": "PM Spanyol Kena Proses Dewan Pemilu Gara-Gara Konferensi Pers",
+    "category": "Dunia",
+    "date": "2026-10-16T00:30:00+07:00",
+    "excerpt": "Dewan Pemilu Spanyol membuka proses disipliner terhadap PM Pedro Sánchez atas konferensi pers 6 Oktober di Istana Moncloa yang dinilai melanggar netralitas jelang pemilu 29 November.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/spanyol-dewan-pemilu-buka-proses-terhadap-pm-sanchez.svg"
+  },
+  {
+    "slug": "openai-karyawan-tangkap-alat-rekam-tersembunyi",
+    "title": "Karyawan OpenAI Ditangkap, Pasang Alat Rekam di Ruang Rapat",
+    "category": "Teknologi",
+    "date": "2026-10-16T00:30:00+07:00",
+    "excerpt": "Seorang engineer OpenAI ditangkap FBI setelah diduga memasang alat rekam audio tersembunyi di ruang rapat eksekutif; OpenAI menyebut model AI internalnya membantu mengidentifikasi pelaku.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/openai-karyawan-tangkap-alat-rekam-tersembunyi.svg"
+  },
+  {
     "slug": "kai-mini-fair-stasiun-medan-umkm-sumut",
     "title": "Stasiun Medan Jadi Pasar UMKM 3 Hari, Ada Kopi Gratis Buat Penumpang Sribilah 🚉",
     "category": "Medan",
