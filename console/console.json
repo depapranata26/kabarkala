@@ -1,14 +1,13 @@
 {
- "updated_at": "2026-10-16 05:51:21",
+ "updated_at": "2026-10-16 05:56:21",
  "bot": {
   "running": true,
   "pid": 3077,
-  "uptime": "15m 50d",
+  "uptime": "20m 50d",
   "dl_count": 18
  },
  "log": [
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
   "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot[TOKEN-DISAMARKAN]/getUpdates (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))",
@@ -206,6 +205,7 @@
   "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "Bot jalan sebagai @Screendep_bot (id 8512350847)"
+  "Bot jalan sebagai @Screendep_bot (id 8512350847)",
+  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)"
  ]
 }
