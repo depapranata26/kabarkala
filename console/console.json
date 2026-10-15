@@ -1,13 +1,12 @@
 {
- "updated_at": "2026-10-15 08:31:20",
+ "updated_at": "2026-10-15 08:36:21",
  "bot": {
-  "running": true,
-  "pid": 5540,
-  "uptime": "1j 27m 12d",
+  "running": false,
+  "pid": null,
+  "uptime": "-",
   "dl_count": 17
  },
  "log": [
-  "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: Telegram API getUpdates gagal: 429 {'ok': False, 'error_code': 429, 'description': 'Too Many Requests: retry after 5', 'parameters': {'retry_after': 5}}",
   "poll error: Telegram API getUpdates gagal: 502 {'ok': False, 'error_code': 502, 'description': 'Bad Gateway'}",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
@@ -204,6 +203,7 @@
   "callback error: Telegram API answerCallbackQuery gagal: 400 {'ok': False, 'error_code': 400, 'description': 'Bad Request: query is too old and response timeout expired or query ID is invalid'}",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: Telegram API getUpdates gagal: 429 {'ok': False, 'error_code': 429, 'description': 'Too Many Requests: retry after 5', 'parameters': {'retry_after': 5}}",
+  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)"
