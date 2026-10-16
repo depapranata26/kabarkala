@@ -1,13 +1,12 @@
 {
- "updated_at": "2026-10-16 23:16:21",
+ "updated_at": "2026-10-16 23:21:22",
  "bot": {
   "running": true,
   "pid": 2997,
-  "uptime": "40m 51d",
+  "uptime": "45m 51d",
   "dl_count": 18
  },
  "log": [
-  "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
@@ -206,6 +205,7 @@
   "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "Bot jalan sebagai @Screendep_bot (id 8512350847)",
-  "Bot jalan sebagai @Screendep_bot (id 8512350847)"
+  "Bot jalan sebagai @Screendep_bot (id 8512350847)",
+  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)"
  ]
 }
