@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-17 04:11:21",
+ "updated_at": "2026-10-17 04:16:20",
  "bot": {
-  "running": true,
-  "pid": 2333,
-  "uptime": "1j 50m 50d",
+  "running": false,
+  "pid": null,
+  "uptime": "-",
   "dl_count": 18
  },
  "log": [
