@@ -1,19 +1,15 @@
 {
- "updated_at": "2026-10-17 08:11:21",
+ "updated_at": "2026-10-17 08:16:21",
  "bot": {
   "running": true,
   "pid": 2454,
-  "uptime": "3j 50m 51d",
+  "uptime": "3j 55m 51d",
   "dl_count": 18
  },
  "log": [
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
@@ -206,6 +202,10 @@
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "Bot jalan sebagai @Screendep_bot (id 8512350847)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
+  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
+  "poll error: Telegram API getUpdates gagal: 429 {'ok': False, 'error_code': 429, 'description': 'Too Many Requests: retry after 5', 'parameters': {'retry_after': 5}}",
+  "poll error: Telegram API getUpdates gagal: 502 {'ok': False, 'error_code': 502, 'description': 'Bad Gateway'}",
+  "poll error: Telegram API getUpdates gagal: 502 {'ok': False, 'error_code': 502, 'description': 'Bad Gateway'}",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)"
  ]
 }
