@@ -1,13 +1,12 @@
 {
- "updated_at": "2026-10-18 03:31:20",
+ "updated_at": "2026-10-18 03:36:26",
  "bot": {
-  "running": false,
-  "pid": null,
-  "uptime": "-",
+  "running": true,
+  "pid": 2554,
+  "uptime": "0m 56d",
   "dl_count": 18
  },
  "log": [
-  "poll error: Telegram API getUpdates gagal: 502 {'ok': False, 'error_code': 502, 'description': 'Bad Gateway'}",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
@@ -206,6 +205,7 @@
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
   "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
-  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)"
+  "poll error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",
+  "Bot jalan sebagai @Screendep_bot (id 8512350847)"
  ]
 }
