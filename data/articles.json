@@ -1,5 +1,59 @@
 [
   {
+    "slug": "bitcoin-melemah-uptober-gagal-rektober",
+    "title": "Bitcoin Melemah Lagi, \"Uptober\" Gagal Jadi \"Rektober\"",
+    "category": "Ekonomi",
+    "date": "2026-10-17T16:00:00+07:00",
+    "excerpt": "Bitcoin di kisaran US$81.300–81.500 pada Sabtu 17 Oktober 2026 — pekan merah kedua berturut-turut, ditekan aksi jual saham teknologi, lonjakan minyak, dan kekhawatiran inflasi AS.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/bitcoin-melemah-uptober-gagal-rektober.svg"
+  },
+  {
+    "slug": "volvo-nvidia-mobil-ai-hands-free-2030",
+    "title": "Volvo × NVIDIA: Mobil Nyetir Sendiri Tanpa Pegang Setir, Target Sebelum 2030",
+    "category": "Teknologi",
+    "date": "2026-10-17T16:00:00+07:00",
+    "excerpt": "Volvo dan NVIDIA menyiapkan mobil AI hands-free Level 2++ berbasis Hyperion dan Alpamayo. Supir tetap wajib mengawasi jalan.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/volvo-nvidia-mobil-ai-hands-free-2030.svg"
+  },
+  {
+    "slug": "belawan-smp-classrooms-of-hope-300-siswa",
+    "title": "Belawan Akhirnya Dapat SMP Baru buat 300 Siswa",
+    "category": "Medan",
+    "date": "2026-10-17T16:00:00+07:00",
+    "excerpt": "SMP Classrooms of Hope di Jalan Karo, Belawan, mulai dibangun — Belawan selama ini cuma punya satu SMP Negeri di Sicanang.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/belawan-smp-classrooms-of-hope-300-siswa.svg"
+  },
+  {
+    "slug": "kemendag-nestle-mou-ekspor-kopi-rp10-triliun",
+    "title": "Kopi RI Go Global: Kemendag–Nestlé Sepakat Ekspor Rp10 Triliun dalam 3 Tahun ☕",
+    "category": "Ekonomi",
+    "date": "2026-10-17T15:30:00+07:00",
+    "excerpt": "Kemendag dan Nestlé teken MoU dorong ekspor dari hulu di TEI 2026, plus lepas ekspor NESCAFÉ siap minum ke Melbourne, Australia.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/kemendag-nestle-mou-ekspor-kopi-rp10-triliun.svg"
+  },
+  {
+    "slug": "gibran-santri-dalwa-belajar-ai-robotik",
+    "title": "Santri Jago Coding: Gibran Cek Pelatihan AI & Robotik di Pesantren Dalwa 🤖",
+    "category": "Nasional",
+    "date": "2026-10-17T15:30:00+07:00",
+    "excerpt": "Wapres Gibran meninjau pelatihan AI dan robotika di Pesantren Dalwa, Pasuruan, dan berpesan santri harus menguasai teknologi, bukan sekadar jadi pengguna.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/gibran-santri-dalwa-belajar-ai-robotik.svg"
+  },
+  {
+    "slug": "singapura-peringatkan-7-perusahaan-ri-kabut-asap",
+    "title": "Singapura Layangkan Notis ke 7 Perusahaan RI soal Kabut Asap 🌫️",
+    "category": "Dunia",
+    "date": "2026-10-17T15:30:00+07:00",
+    "excerpt": "NEA Singapura menerbitkan notis tindakan pencegahan kepada tujuh perusahaan Indonesia terkait kabut asap lintas batas. Notis ini bukan vonis bersalah.",
+    "read_time": "1 menit baca",
+    "image": "assets/img/singapura-peringatkan-7-perusahaan-ri-kabut-asap.svg"
+  },
+  {
     "slug": "sekolah-rakyat-putus-rantai-kemiskinan-44-ribu-siswa",
     "title": "Sekolah Rakyat: 44 Ribu Anak Sekolah Gratis, Putus Rantai Kemiskinan",
     "category": "Nasional",
